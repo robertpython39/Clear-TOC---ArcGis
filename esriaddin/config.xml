@@ -1,0 +1,13 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Remove Layers</Name><AddInID>{88e684be-cf06-4335-ac70-edafe9a1949d}</AddInID><Description>Remove layers from the table of contents</Description><Version>1.0</Version><Image>Images\python.png</Image><Author>rnicolescu</Author><Company>Blom</Company><Date>07/04/2022</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="esriaddin_addin.py" namespace="esriaddin_addin"><ArcMap>
+    <Commands>
+        <Button caption="Remove_TOC" category="Remove Layers" class="RemoveLayersTOC" id="esriaddin_addin.btn_1" image="Images\python.png" message="Remove Layers from TOC" tip="Remove Layers from TOC"><Help heading="Remove Layers from TOC">Remove Layers from TOC</Help></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Clear_TOC" category="Remove Layers" id="esriaddin_addin.toolbar" showInitially="true"><Items><Button refID="esriaddin_addin.btn_1" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption="Robert_Test" category="Remove Layers" id="esriaddin_addin.menu" isRootMenu="true" isShortcutMenu="false" separator="false"><Items /></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
