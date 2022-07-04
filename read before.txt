@@ -1,0 +1,5 @@
+In folder esriaddin are 2 subfolders: Images and Install
+-- in Images is the image for the button
+-- in Install is the python code wich has effect in ArcGis 10.3
+
+Run remove_layers_toc.esriaddin and the button will be installed in ArcGis Software
